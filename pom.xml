@@ -287,7 +287,7 @@
                             <target>
                                 <echo message="renaming sources file" />
                                 <copy file="${project.build.directory}/dependency/eclipse-collections-api-${core.artifact.version}-sources.jar"
-                                      tofile="${project.build.directory}/eclipse-collections-api-${core.artifact.version}-${core.artifact.release}-sources.jar" />
+                                      tofile="${project.build.directory}/eclipse-collections-api-${project.version}-sources.jar" />
                             </target>
                         </configuration>
                     </execution>
@@ -301,7 +301,7 @@
                             <target>
                                 <echo message="renaming javadoc file" />
                                 <copy file="${project.build.directory}/dependency/eclipse-collections-api-${core.artifact.version}-javadoc.jar"
-                                      tofile="${project.build.directory}/eclipse-collections-api-${core.artifact.version}-${core.artifact.release}-javadoc.jar" />
+                                      tofile="${project.build.directory}/eclipse-collections-api-${project.version}-javadoc.jar" />
                             </target>
                         </configuration>
                     </execution>
