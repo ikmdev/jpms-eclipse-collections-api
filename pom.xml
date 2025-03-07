@@ -13,7 +13,7 @@
     <artifactId>eclipse-collections-api</artifactId>
     <packaging>jar</packaging>
     <name>Eclipse collections API</name>
-    <version>11.1.0-r11-AR-299_Java23</version>
+    <version>11.1.0-r11</version>
 
     <properties>
         <!-- change release here-->
