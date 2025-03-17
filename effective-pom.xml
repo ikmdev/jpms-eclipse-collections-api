@@ -8,7 +8,7 @@
 <!-- ====================================================================== -->
 <!--                                                                        -->
 <!-- Effective POM for project                                              -->
-<!-- 'dev.ikm.jpms:eclipse-collections-api:jar:12.0.0.M3-r1-SNAPSHOT'       -->
+<!-- 'dev.ikm.jpms:eclipse-collections-api:jar:12.0.0.M3-r2-SNAPSHOT'       -->
 <!--                                                                        -->
 <!-- ====================================================================== -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -21,7 +21,7 @@
   </parent>
   <groupId>dev.ikm.jpms</groupId>
   <artifactId>eclipse-collections-api</artifactId>
-  <version>12.0.0.M3-r1-SNAPSHOT</version>
+  <version>12.0.0.M3-r2-SNAPSHOT</version>
   <name>Eclipse collections API</name>
   <description>The General Parent that helps to define the build processes that should be used across projects, regardless of.
         Package type. This is versioned and if you want to use a different version of the pom, you can simply change
@@ -61,7 +61,7 @@
   </issueManagement>
   <properties>
     <build-helper-maven-plugin.version>3.6.0</build-helper-maven-plugin.version>
-    <core.artifact.release>r1</core.artifact.release>
+    <core.artifact.release>r2</core.artifact.release>
     <core.artifact.version>12.0.0.M3</core.artifact.version>
     <java.version>23</java.version>
     <maven-javadoc-plugin.version>3.11.2</maven-javadoc-plugin.version>
@@ -137,7 +137,7 @@
       </testResource>
     </testResources>
     <directory>c:\Users\omomofonmwan\FDAShieldCode\GitHub\ikmdev\jpms-repos\jpms-eclipse-collections-api\target</directory>
-    <finalName>eclipse-collections-api-12.0.0.M3-r1-SNAPSHOT</finalName>
+    <finalName>eclipse-collections-api-12.0.0.M3-r2-SNAPSHOT</finalName>
     <pluginManagement>
       <plugins>
         <plugin>
@@ -606,7 +606,7 @@
             <configuration>
               <target>
                 <echo message="renaming sources file" />
-                <copy file="c:\Users\omomofonmwan\FDAShieldCode\GitHub\ikmdev\jpms-repos\jpms-eclipse-collections-api\target/dependency/eclipse-collections-api-12.0.0.M3-sources.jar" tofile="c:\Users\omomofonmwan\FDAShieldCode\GitHub\ikmdev\jpms-repos\jpms-eclipse-collections-api\target/eclipse-collections-api-12.0.0.M3-r1-SNAPSHOT-sources.jar" />
+                <copy file="c:\Users\omomofonmwan\FDAShieldCode\GitHub\ikmdev\jpms-repos\jpms-eclipse-collections-api\target/dependency/eclipse-collections-api-12.0.0.M3-sources.jar" tofile="c:\Users\omomofonmwan\FDAShieldCode\GitHub\ikmdev\jpms-repos\jpms-eclipse-collections-api\target/eclipse-collections-api-12.0.0.M3-r2-SNAPSHOT-sources.jar" />
               </target>
             </configuration>
           </execution>
@@ -619,7 +619,7 @@
             <configuration>
               <target>
                 <echo message="renaming javadoc file" />
-                <copy file="c:\Users\omomofonmwan\FDAShieldCode\GitHub\ikmdev\jpms-repos\jpms-eclipse-collections-api\target/dependency/eclipse-collections-api-12.0.0.M3-javadoc.jar" tofile="c:\Users\omomofonmwan\FDAShieldCode\GitHub\ikmdev\jpms-repos\jpms-eclipse-collections-api\target/eclipse-collections-api-12.0.0.M3-r1-SNAPSHOT-javadoc.jar" />
+                <copy file="c:\Users\omomofonmwan\FDAShieldCode\GitHub\ikmdev\jpms-repos\jpms-eclipse-collections-api\target/dependency/eclipse-collections-api-12.0.0.M3-javadoc.jar" tofile="c:\Users\omomofonmwan\FDAShieldCode\GitHub\ikmdev\jpms-repos\jpms-eclipse-collections-api\target/eclipse-collections-api-12.0.0.M3-r2-SNAPSHOT-javadoc.jar" />
               </target>
             </configuration>
           </execution>
