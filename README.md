@@ -23,19 +23,19 @@ Add the following dependency to your pom.xml:
 
 Add the following dependency to your build.gradle:
 ```groovy
-implementation 'dev.ikm.jpms:eclipse-collections-apie:${latest-jpms-eclipse-collections-api-version}'
+implementation 'dev.ikm.jpms:eclipse-collections-api:${latest-jpms-eclipse-collections-api-version}'
 ```
 
 In your module descriptor (module-info.java), declare the dependency on the jpms-eclipse-collections-api module:
 
 ```java
 module your.module.name {
-    requires dev.ikm.jpms.activej.bytebuf;
+    requires dev.ikm.jpms.eclipse.collections.api;
 }
 ```
 
 
 ## Issues and Contributions
-Technical and non-technical issues can be reported to the [Issue Tracker](https://github.com/ikmdev/eclipse-collections-api/issues).
+Technical and non-technical issues can be reported to the [Issue Tracker](https://github.com/ikmdev/jpms-eclipse-collections-api/issues).
 
 Contributions can be submitted via pull requests. Please check the [contribution guide](doc/how-to-contribute.md) for more details.
